@@ -21,7 +21,8 @@ describe("My Info Page Orange HRM Tests", () => {
     myInfoPage.fillPersonalDetails(
       chance.first(),
       chance.name({ middle: true }),
-      chance.last()
+      chance.last(),
+      chance.syllable()
     );
     myInfoPage.fillEmployeeDetails(
       chance.string({ length: 10 }),

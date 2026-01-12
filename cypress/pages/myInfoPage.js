@@ -16,7 +16,7 @@ class MyInfoPage {
     return selectors;
   }
 
-  fillPersonalDetails(firstName, middleName, lastName) {
+  fillPersonalDetails(firstName, middleName, lastName, nickName) {
     cy.get(this.selectorsList().firstNameField).clear().type(firstName);
     cy.get(this.selectorsList().middleNameField).clear().type(middleName);
     cy.get(this.selectorsList().lastNameField).clear().type(lastName);
