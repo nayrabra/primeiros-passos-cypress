@@ -25,9 +25,12 @@ npm install
 
 ## Running
 ```bash
-# You open the Cypress UI
+# Open the Cypress Test Runner (UI)
 npx cypress open
 
-# Run the automation by command line
+# Run the tests via command line
 npx cypress run
+
+# Install the random data generator
+npm install chance
 ```
