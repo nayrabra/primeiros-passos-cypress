@@ -16,12 +16,20 @@ Cypress is a JavaScript-based end-to-end testing framework that allows developer
 ---
 
 ## Installation
-```bash
-npm install
-```
 > **NOTE:**
 >
 > it is necessary to have **node** installed
+
+```bash
+# Install project dependencies
+npm install
+
+# Install Cypress
+npm install cypress --save-dev
+
+# Install the random data generator
+npm install chance
+```
 
 ## Running
 ```bash
@@ -30,7 +38,4 @@ npx cypress open
 
 # Run the tests via command line
 npx cypress run
-
-# Install the random data generator
-npm install chance
 ```
